@@ -2,48 +2,48 @@
 
 @section('content')
     <section class="section custom-bg-color-light-1 border-0 pt-5 m-0">
-    <div class="container position-relative z-index-1 pt-5 mt-5">
-      <div class="custom-circle custom-circle-wrapper custom-circle-big custom-circle-pos-1 appear-animation" data-appear-animation="expandInWithBlur" data-appear-animation-delay="900" data-appear-animation-duration="2s">
-        <div class="bg-color-tertiary rounded-circle w-100 h-100" data-plugin-float-element="" data-plugin-options="{'startPos': 'bottom', 'speed': 0.5, 'transition': true, 'transitionDuration': 1000}"></div>
-      </div>
-      <div class="custom-circle custom-circle-medium custom-circle-pos-2 appear-animation" data-appear-animation="expandInWithBlur" data-appear-animation-delay="1450" data-appear-animation-duration="2s">
-        <div class="custom-bg-color-grey-2 rounded-circle w-100 h-100" data-plugin-float-element="" data-plugin-options="{'startPos': 'bottom', 'speed': 0.2, 'transition': true, 'transitionDuration': 2000}"></div>
-      </div>
-      <div class="custom-circle custom-circle-medium custom-circle-pos-3 appear-animation" data-appear-animation="expandIn" data-appear-animation-delay="1300">
-        <div class="custom-bg-color-grey-2 rounded-circle w-100 h-100" data-plugin-float-element="" data-plugin-options="{'startPos': 'bottom', 'speed': 0.3, 'transition': true, 'transitionDuration': 1000}"></div>
-      </div>
-      <div class="custom-circle custom-circle-small custom-circle-pos-4 appear-animation" data-appear-animation="expandIn" data-appear-animation-delay="1600">
-        <div class="custom-bg-color-grey-2 rounded-circle w-100 h-100" data-plugin-float-element="" data-plugin-options="{'startPos': 'bottom', 'speed': 0.6, 'transition': true, 'transitionDuration': 500}"></div>
-      </div>
-      <div class="custom-circle custom-circle-medium custom-circle-pos-5 appear-animation" data-appear-animation="expandInWithBlur" data-appear-animation-delay="1050" data-appear-animation-duration="2s">
-        <div class="bg-color-secondary rounded-circle w-100 h-100" data-plugin-float-element="" data-plugin-options="{'startPos': 'top', 'speed': 0.2, 'transition': true, 'transitionDuration': 2000}"></div>
-      </div>
-      <div class="custom-circle custom-circle-medium custom-circle-pos-6 appear-animation" data-appear-animation="expandInWithBlur" data-appear-animation-delay="1200" data-appear-animation-duration="2s">
-        <div class="custom-bg-color-grey-2 rounded-circle w-100 h-100" data-plugin-float-element="" data-plugin-options="{'startPos': 'bottom', 'speed': 0.8, 'transition': true, 'transitionDuration': 500}"></div>
-      </div>
-      <div class="custom-circle custom-circle-small custom-circle-pos-7 appear-animation" data-appear-animation="expandIn" data-appear-animation-delay="1700">
-        <div class="custom-bg-color-grey-2 rounded-circle w-100 h-100" data-plugin-float-element="" data-plugin-options="{'startPos': 'top', 'speed': 0.3, 'transition': true, 'transitionDuration': 1000}"></div>
-      </div>
-      <div class="custom-circle custom-circle-medium custom-circle-pos-8 appear-animation" data-appear-animation="expandInWithBlur" data-appear-animation-delay="1350" data-appear-animation-duration="2s">
-        <div class="custom-bg-color-grey-2 rounded-circle w-100 h-100" data-plugin-float-element="" data-plugin-options="{'startPos': 'bottom', 'speed': 0.5, 'transition': true, 'transitionDuration': 500}"></div>
-      </div>
-      <div class="row align-items-center pt-4">
-        <div class="col-md-6 pb-5 mb-md-5">
-          <div class="spacer" style="height: 110px;"></div>
-          <h1 class="text-color-dark font-weight-bold text-10 mb-3 appear-animation" data-appear-animation="fadeInUpShorter" data-appear-animation-delay="300">Platform Untuk Mengelola Seluruh Bisnis anda untuk operasional lebih produktif &amp; terintegrasi</h1>
-          <p class="custom-text-color-grey-1 text-4 mb-4 appear-animation" data-appear-animation="fadeInUpShorter" data-appear-animation-delay="450">Kurangi waktu untuk tugas administratif, dan lebih banyak waktu untuk bekerja, menggunakan GET ERP, SISTEM BISNIS ALL-IN-ONE.</p>
-          <a href="https://padiorganikmagelang.com/" class="btn btn-gradient btn-rounded font-weight-semibold px-5 py-3 text-3 mb-md-5 appear-animation" data-appear-animation="fadeInUpShorter" data-appear-animation-delay="600">DEMO Razen GET ERP</a>
-          <div class="spacer d-none d-md-block" style="height: 310px;"></div>
+        <div class="container position-relative z-index-1 pt-5 mt-5">
+            <div class="custom-circle custom-circle-wrapper custom-circle-big custom-circle-pos-1 appear-animation" data-appear-animation="expandInWithBlur" data-appear-animation-delay="900" data-appear-animation-duration="2s">
+                <div class="bg-color-tertiary rounded-circle w-100 h-100" data-plugin-float-element="" data-plugin-options="{'startPos': 'bottom', 'speed': 0.5, 'transition': true, 'transitionDuration': 1000}"></div>
+            </div>
+            <div class="custom-circle custom-circle-medium custom-circle-pos-2 appear-animation" data-appear-animation="expandInWithBlur" data-appear-animation-delay="1450" data-appear-animation-duration="2s">
+                <div class="custom-bg-color-grey-2 rounded-circle w-100 h-100" data-plugin-float-element="" data-plugin-options="{'startPos': 'bottom', 'speed': 0.2, 'transition': true, 'transitionDuration': 2000}"></div>
+            </div>
+            <div class="custom-circle custom-circle-medium custom-circle-pos-3 appear-animation" data-appear-animation="expandIn" data-appear-animation-delay="1300">
+                <div class="custom-bg-color-grey-2 rounded-circle w-100 h-100" data-plugin-float-element="" data-plugin-options="{'startPos': 'bottom', 'speed': 0.3, 'transition': true, 'transitionDuration': 1000}"></div>
+            </div>
+            <div class="custom-circle custom-circle-small custom-circle-pos-4 appear-animation" data-appear-animation="expandIn" data-appear-animation-delay="1600">
+                <div class="custom-bg-color-grey-2 rounded-circle w-100 h-100" data-plugin-float-element="" data-plugin-options="{'startPos': 'bottom', 'speed': 0.6, 'transition': true, 'transitionDuration': 500}"></div>
+            </div>
+            <div class="custom-circle custom-circle-medium custom-circle-pos-5 appear-animation" data-appear-animation="expandInWithBlur" data-appear-animation-delay="1050" data-appear-animation-duration="2s">
+                <div class="bg-color-secondary rounded-circle w-100 h-100" data-plugin-float-element="" data-plugin-options="{'startPos': 'top', 'speed': 0.2, 'transition': true, 'transitionDuration': 2000}"></div>
+            </div>
+            <div class="custom-circle custom-circle-medium custom-circle-pos-6 appear-animation" data-appear-animation="expandInWithBlur" data-appear-animation-delay="1200" data-appear-animation-duration="2s">
+                <div class="custom-bg-color-grey-2 rounded-circle w-100 h-100" data-plugin-float-element="" data-plugin-options="{'startPos': 'bottom', 'speed': 0.8, 'transition': true, 'transitionDuration': 500}"></div>
+            </div>
+            <div class="custom-circle custom-circle-small custom-circle-pos-7 appear-animation" data-appear-animation="expandIn" data-appear-animation-delay="1700">
+                <div class="custom-bg-color-grey-2 rounded-circle w-100 h-100" data-plugin-float-element="" data-plugin-options="{'startPos': 'top', 'speed': 0.3, 'transition': true, 'transitionDuration': 1000}"></div>
+            </div>
+            <div class="custom-circle custom-circle-medium custom-circle-pos-8 appear-animation" data-appear-animation="expandInWithBlur" data-appear-animation-delay="1350" data-appear-animation-duration="2s">
+                <div class="custom-bg-color-grey-2 rounded-circle w-100 h-100" data-plugin-float-element="" data-plugin-options="{'startPos': 'bottom', 'speed': 0.5, 'transition': true, 'transitionDuration': 500}"></div>
+            </div>
+            <div class="row align-items-center pt-4">
+                <div class="col-md-6 pb-5 mb-md-5">
+                    <div class="spacer" style="height: 110px;"></div>
+                    <h1 class="text-color-dark font-weight-bold text-10 mb-3 appear-animation" data-appear-animation="fadeInUpShorter" data-appear-animation-delay="300">Platform Untuk Mengelola Seluruh Bisnis anda untuk operasional lebih produktif &amp; terintegrasi</h1>
+                    <p class="custom-text-color-grey-1 text-4 mb-4 appear-animation" data-appear-animation="fadeInUpShorter" data-appear-animation-delay="450">Kurangi waktu untuk tugas administratif, dan lebih banyak waktu untuk bekerja, menggunakan GET ERP, SISTEM BISNIS ALL-IN-ONE.</p>
+                    {{-- <a href="https://padiorganikmagelang.com/" class="btn btn-gradient btn-rounded font-weight-semibold px-5 py-3 text-3 mb-md-5 appear-animation" data-appear-animation="fadeInUpShorter" data-appear-animation-delay="600">DEMO Razen GET ERP</a> --}}
+                    <div class="spacer d-none d-md-block" style="height: 310px;"></div>
+                </div>
+                <div class="col-md-6 pb-5">
+                    <a target="_blank" href="https://razenteknologi.com/solusi/get-erp-razen/img/apphero.png">
+                        <img src="https://razenteknologi.com/solusi/get-erp-razen/img/apphero.png" class="img-fluid position-relative z-index-1 pb-5 mb-5 ms-5 top-10 appear-animation" data-appear-animation="fadeInUpShorter" data-appear-animation-delay="750" data-appear-animation-duration="1500ms" alt="">
+                    </a>
+                </div>
+            </div>
         </div>
-        <div class="col-md-6 pb-5">
-          <a target="_blank" href="https://razenteknologi.com/solusi/get-erp-razen/img/apphero.png">
-            <img src="https://razenteknologi.com/solusi/get-erp-razen/img/apphero.png" class="img-fluid position-relative z-index-1 pb-5 mb-5 ms-5 top-10 appear-animation" data-appear-animation="fadeInUpShorter" data-appear-animation-delay="750" data-appear-animation-duration="1500ms" alt="">
-          </a>
-        </div>
-      </div>
-    </div>
-
     </section>
+
     <section class="section position-relative bg-color-light border-0 m-0">
         <svg class="custom-section-curved-top-1" width="100%" height="600px" xmlns="http://www.w3.org/2000/svg">
         <path id="svg_1" d="m-12.66406,442.40068c352.72654,-76.36348 565.45337,5.45453 696.36219,19.99996c130.90882,14.54542 270.90852,-23.63632 367.27196,-47.27263c96.36344,-23.63631 379.99921,-154.54513 527.27163,-209.09047c147.27242,-54.54535 381.813,-92.55755 406.36076,-99.00598c12.27388,-3.22421 917.96684,-113.93032 715.00991,10.61478c-202.95693,124.5451 -210.46055,521.28714 -198.64021,540.29354c11.82034,19.0064 -2500.90899,-15.53962 -2500.0019,-16.36399c-0.90709,0.82437 -9.99798,-180.99343 -9.09089,-181.8178" stroke-opacity="null" stroke-width="0" stroke="#000" fill="#f7f8f9"></path>
@@ -107,6 +107,7 @@
         </div>
         </div>
     </section>
+
     <section class="section custom-bg-color-light-2 position-relative border-0 pt-4 m-0">
         <svg class="custom-section-curved-top-2" width="100%" height="298" xmlns="http://www.w3.org/2000/svg">
         <path id="svg_3" d="m-79.33393,-38.33344c20.00001,16.00001 346.66686,448.00024 826.66712,236.00013c240.00013,-106.00006 647.58388,-25.45831 786.45913,6.2709c138.87524,31.72921 295.36054,26.21434 359.54203,2.72919c64.18149,-23.48515 718.67317,-158.11072 742.33982,-143.77728c214.66852,222.83259 61.00168,333.66623 77.22357,376.2222c16.22188,42.55598 -2796.23167,-33.44489 -2795.56445,-33.77815c-0.33361,0.16663 -0.83375,-98.08344 -1.16708,-196.41683c-0.33334,-98.33338 -0.49987,-196.75009 -0.16626,-196.91671" stroke-width="0" stroke="#000" fill="#eff1f3"></path>
