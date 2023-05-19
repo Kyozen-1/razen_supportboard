@@ -99,6 +99,36 @@
                     </a>
                 </li>
                 <li>
+                    @if (request()->routeIs('razen-supportboard.admin.produk.index'))
+                        <a href="{{ route('razen-supportboard.admin.produk.index') }}" class="active">
+                    @else
+                        <a href="{{ route('razen-supportboard.admin.produk.index') }}">
+                    @endif
+                        <i data-acorn-icon="home-garage" class="icon" data-acorn-size="18"></i>
+                        <span class="label">Produk</span>
+                    </a>
+                </li>
+                <li>
+                    @if (request()->routeIs('razen-supportboard.admin.testimoni.index'))
+                        <a href="{{ route('razen-supportboard.admin.testimoni.index') }}" class="active">
+                    @else
+                        <a href="{{ route('razen-supportboard.admin.testimoni.index') }}">
+                    @endif
+                        <i data-acorn-icon="home-garage" class="icon" data-acorn-size="18"></i>
+                        <span class="label">Testimoni</span>
+                    </a>
+                </li>
+                <li>
+                    @if (request()->routeIs('razen-supportboard.admin.paket-harga.index'))
+                        <a href="{{ route('razen-supportboard.admin.paket-harga.index') }}" class="active">
+                    @else
+                        <a href="{{ route('razen-supportboard.admin.paket-harga.index') }}">
+                    @endif
+                        <i data-acorn-icon="home-garage" class="icon" data-acorn-size="18"></i>
+                        <span class="label">Paket Harga</span>
+                    </a>
+                </li>
+                <li>
                     @if (request()->routeIs('razen-supportboard.master-data.media-sosial.index'))
                     <a href="#master_data" class="active">
                     @else

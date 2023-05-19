@@ -35,6 +35,34 @@ Route::prefix('razen-supportboard')->group(function(){
             Route::post('/update','RazenSupportboard\Admin\FiturController@update')->name('razen-supportboard.admin.fitur.update');
             Route::get('/destroy/{id}','RazenSupportboard\Admin\FiturController@destroy')->name('razen-supportboard.admin.fitur.destroy');
         });
+
+        Route::prefix('produk')->group(function(){
+            Route::get('/', 'RazenSupportboard\Admin\ProdukController@index')->name('razen-supportboard.admin.produk.index');
+            Route::get('/detail/{id}', 'RazenSupportboard\Admin\ProdukController@show')->name('razen-supportboard.admin.produk.show');
+            Route::post('/','RazenSupportboard\Admin\ProdukController@store')->name('razen-supportboard.admin.produk.store');
+            Route::get('/edit/{id}','RazenSupportboard\Admin\ProdukController@edit')->name('razen-supportboard.admin.produk.edit');
+            Route::post('/update','RazenSupportboard\Admin\ProdukController@update')->name('razen-supportboard.admin.produk.update');
+            Route::get('/destroy/{id}','RazenSupportboard\Admin\ProdukController@destroy')->name('razen-supportboard.admin.produk.destroy');
+        });
+
+        Route::prefix('testimoni')->group(function(){
+            Route::get('/', 'RazenSupportboard\Admin\TestimoniController@index')->name('razen-supportboard.admin.testimoni.index');
+            Route::get('/detail/{id}', 'RazenSupportboard\Admin\TestimoniController@show')->name('razen-supportboard.admin.testimoni.show');
+            Route::post('/','RazenSupportboard\Admin\TestimoniController@store')->name('razen-supportboard.admin.testimoni.store');
+            Route::get('/edit/{id}','RazenSupportboard\Admin\TestimoniController@edit')->name('razen-supportboard.admin.testimoni.edit');
+            Route::post('/update','RazenSupportboard\Admin\TestimoniController@update')->name('razen-supportboard.admin.testimoni.update');
+            Route::get('/destroy/{id}','RazenSupportboard\Admin\TestimoniController@destroy')->name('razen-supportboard.admin.testimoni.destroy');
+        });
+
+        Route::prefix('paket-harga')->group(function(){
+            Route::get('/', 'RazenSupportboard\Admin\PaketHargaController@index')->name('razen-supportboard.admin.paket-harga.index');
+            Route::get('/create', 'RazenSupportboard\Admin\PaketHargaController@create')->name('razen-supportboard.admin.paket-harga.create');
+            Route::get('/detail/{id}', 'RazenSupportboard\Admin\PaketHargaController@show')->name('razen-supportboard.admin.paket-harga.show');
+            Route::post('/','RazenSupportboard\Admin\PaketHargaController@store')->name('razen-supportboard.admin.paket-harga.store');
+            Route::get('/edit/{id}','RazenSupportboard\Admin\PaketHargaController@edit')->name('razen-supportboard.admin.paket-harga.edit');
+            Route::post('/update/{id}','RazenSupportboard\Admin\PaketHargaController@update')->name('razen-supportboard.admin.paket-harga.update');
+            Route::get('/destroy/{id}','RazenSupportboard\Admin\PaketHargaController@destroy')->name('razen-supportboard.admin.paket-harga.delete');
+        });
     });
 
     Route::prefix('landing-page')->group(function(){

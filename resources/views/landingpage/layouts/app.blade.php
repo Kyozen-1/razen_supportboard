@@ -35,21 +35,18 @@
                                 <div class="header-column justify-content-end">
                                     <div class="header-row">
                                         <ul class="header-social-icons social-icons social-icons-clean d-none d-lg-block me-3">
-                                            <li class="social-icons-instagram">
-                                                <a href="https://www.instagram.com/" target="_blank" title="Instagram">
-                                                    <i class="fab fa-instagram"></i>
-                                                </a>
-                                            </li>
-                                            <li class="social-icons-twitter">
-                                                <a href="https://www.twitter.com/" target="_blank" title="Twitter">
-                                                    <i class="fab fa-twitter"></i>
-                                                </a>
-                                            </li>
-                                            <li class="social-icons-facebook">
-                                                <a href="https://www.facebook.com/" target="_blank" title="Facebook">
-                                                    <i class="fab fa-facebook-f"></i>
-                                                </a>
-                                            </li>
+                                            @php
+                                                use App\Models\PivotProfilMediaSosial;
+
+                                                $pivots = PivotProfilMediaSosial::where('profil_id', $profil->id)->get();
+                                            @endphp
+                                            @foreach ($pivots as $pivot)
+                                                <li>
+                                                    <a href="{{$pivot->tautan}}" target="_blank" title="{{$pivot->media_sosial->nama}}">
+                                                        <i class="{{$pivot->media_sosial->kode_ikon}}"></i>
+                                                    </a>
+                                                </li>
+                                            @endforeach
                                         </ul>
                                         <a href="https://api.whatsapp.com/send?phone={{$profil->no_hp}}&amp;text=Hai%20Razen%20Teknologi,%20Saya%20dengan%20:................%20%20Dari%20:................%20Keperluan::................" class="btn btn-tertiary font-weight-semibold text-3 px-4 custom-height-1 rounded-0 align-items-center d-none d-md-flex text-color-light">
                                         <i class="icon-phone icons text-4 me-2"></i> +{{$profil->no_hp}} </a>
@@ -275,23 +272,15 @@
                                 </li>
                                 <li class="mb-1"> Email: <a href="#">{{$profil->email}}</a>
                                 </li>
-                                </ul>
-                                <ul class="social-icons custom-social-icons-style-1">
-                                <li class="social-icons-instagram">
-                                    <a href="https://www.instagram.com/" target="_blank" title="Instagram">
-                                    <i class="fab fa-instagram"></i>
-                                    </a>
-                                </li>
-                                <li class="social-icons-twitter">
-                                    <a href="https://www.twitter.com/" target="_blank" title="Twitter">
-                                    <i class="fab fa-twitter"></i>
-                                    </a>
-                                </li>
-                                <li class="social-icons-facebook">
-                                    <a href="https://www.facebook.com/" target="_blank" title="Facebook">
-                                    <i class="fab fa-facebook-f"></i>
-                                    </a>
-                                </li>
+                            </ul>
+                            <ul class="social-icons custom-social-icons-style-1">
+                                @foreach ($pivots as $pivot)
+                                    <li>
+                                        <a href="{{$pivot->tautan}}" target="_blank" title="{{$pivot->media_sosial->nama}}">
+                                            <i class="{{$pivot->media_sosial->kode_ikon}}"></i>
+                                        </a>
+                                    </li>
+                                @endforeach
                             </ul>
                         </div>
                     </div>
