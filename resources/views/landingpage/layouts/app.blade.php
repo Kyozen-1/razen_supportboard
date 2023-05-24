@@ -192,6 +192,15 @@
                                                     <li>
                                                         <a class="nav-link" href="https://api.whatsapp.com/send?phone={{$profil->no_hp}}&amp;text=Hai%20Razen%20Teknologi,%20Saya%20dengan%20:................%20%20Dari%20:................%20Keperluan::................"> Kontak Kami </a>
                                                     </li>
+                                                    <li class="nav-item dropdown">
+                                                        <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                                                            Login
+                                                        </a>
+                                                        <div class="dropdown-menu" aria-labelledby="navbarDropdown">
+                                                            <a class="dropdown-item" href="{{ route('razen-supportboard.login') }}">CMS</a>
+                                                            <a class="dropdown-item" href="{{ url('/') }}/supportboard/admin.php">Support Board</a>
+                                                        </div>
+                                                    </li>
                                                 </ul>
                                             </nav>
                                         </div>
@@ -202,9 +211,12 @@
                                     <div class="header-nav-features header-nav-features-no-border header-nav-features-lg-show-border order-1 order-lg-2">
                                         <div class="header-nav-feature header-nav-features-search d-inline-flex">
                                             <div class="d-none d-xxl-flex custom-header-1-extra-links">
-                                            <a class="btn btn-outline-primary font-weight-semibold text-3 py-3 border-radius p-relative bottom-1 custom-header-1-btn-1" href="https://api.whatsapp.com/send?phone={{$profil->no_hp}}&amp;text=Halo%20kak,%20saya%20ingin%20membahas%20sebuah%20proyek" target="_blank">
-                                                <span class="px-4 d-block ws-nowrap">Hubungi Sales</span>
-                                            </a>
+                                                <a class="btn btn-outline-primary font-weight-semibold text-3 py-3 border-radius p-relative bottom-1 custom-header-1-btn-1" href="https://api.whatsapp.com/send?phone={{$profil->no_hp}}&amp;text=Halo%20kak,%20saya%20ingin%20membahas%20sebuah%20proyek" target="_blank">
+                                                    <span class="px-4 d-block ws-nowrap">Hubungi Sales</span>
+                                                </a>
+                                                {{-- <a class="btn btn-primary font-weight-semibold text-3 py-3 border-radius p-relative bottom-1 custom-header-1-btn-1" href="{{ url('/') }}/supportboard/admin.php">
+                                                    <span class="px-4 d-block ws-nowrap">Login</span>
+                                                </a> --}}
                                             </div>
                                         </div>
                                     </div>

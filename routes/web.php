@@ -29,6 +29,8 @@ Route::get('/login','Auth\RazenSupportboard\LoginController@showLoginForm')->nam
 Route::post('/login', 'Auth\RazenSupportboard\LoginController@login')->name('razen-supportboard.login.submit');
 Route::get('/logout', 'Auth\RazenSupportboard\LoginController@logout')->name('razen-supportboard.logout');
 
+Route::get('/supportboard/login','LandingPage\HomeController@showLoginSupportboard')->name('razen-supportboard.supportboard.login');
+
 Route::group(['middleware' => 'auth:razen_supportboard'], function(){
     @include('razen-supportboard.php');
 });

@@ -9,9 +9,14 @@ use App\Models\Fitur;
 use App\Models\Produk;
 use App\Models\Testimoni;
 use App\Models\PaketHarga;
+use File;
 
 class HomeController extends Controller
 {
+    public function showLoginSupportboard()
+    {
+        return fopen(public_path('supportboard/admin.php'), 'r');
+    }
     public function beranda()
     {
         $produk_razens = ProdukRazen::all();
